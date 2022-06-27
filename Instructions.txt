@@ -1,0 +1,34 @@
+You will write a program that asks the user to enter their first name and their last name, separated by a space. Then it asks the user to enter a phrase. You will write and call the following methods:
+
+/*
+
+Read the user's response using TextIO.getln(). Break the input string up into two strings, one containing the first name and one containing the last name. You can do that by using the indexOf() subroutine to find the position of the space, and then using substring() to extract each of the two names.
+
+*/
+
+getFirstName() - returns the first name from the full name of user
+
+getLastName() - returns the last name from the full name of user
+
+getInitials() - returns the initials from the full name of user
+
+makePassword() - returns a password created by the following:
+length of first name + first half of first name + last name + last half of last name + length of last name
+
+bompton() - returns the phrase with all the c's replaced by b's
+ 
+Sample Output:
+
+
+Enter your first name and last name, separated by a space: 
+Jonathan Virak
+Enter a phrase: 
+Give papa a proper cup of coffee in a copper coffee cup.
+
+Your first name is Jonathan
+Your last name is Virak
+Your initials are JV
+
+Your new password: 8JonaVirakrak5
+
+Give papa a proper bup of boffee in a bopper boffee bup.
